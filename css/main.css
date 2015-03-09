@@ -33,7 +33,7 @@ footer p {
 header {
   background: #C8C1B7;
   border-bottom: 1px solid #999999;
-  background-image: url("../img/gallerybanner.jpg"); /*change your banner image*/
+  background-image: url("../img/banner.jpg"); /*change your banner image*/
   height: 60px;
   position: relative;
   width: 100%;
@@ -67,18 +67,18 @@ header nav > ul li {
 }
 
 header nav > ul li:hover, header nav > ul li.active {
-  border-bottom-color: #0066CC;
+  border-bottom-color: #3ddc48;
 }
 
 header nav > ul li:hover a, header nav > ul li.active a {
-  color: #0066CC;
+  color: #3ddc48;
 }
 
 header nav a, header nav a:visited {
   display: block;
   line-height: 60px;
   text-decoration: none;
-  color: #000000;                         /*changes banner text color*/
+  color: #19661e;                         /*changes banner text color*/
   transition: color 200ms ease-in-out;
 }
 
@@ -88,8 +88,8 @@ header nav a, header nav a:visited {
 }
 
 .gallery li {
-  background-color: #333333;
-  border: 1px solid #999999;
+  background-color: #3ddc48
+  border: 1px solid #3ddc48;
   border-radius: 2px;
   float: left;
   list-style-type: none;
